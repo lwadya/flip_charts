@@ -1,0 +1,60 @@
+Year,President,Party,Switch
+1789,George Washington,O,0
+1792,George Washington,O,0
+1796,John Adams,O,0
+1800,Thomas Jefferson,O,0
+1804,Thomas Jefferson,O,0
+1808,James Madison,O,0
+1812,James Madison,O,0
+1816,James Monroe,O,0
+1820,James Monroe,O,0
+1824,John Quincy Adams,O,0
+1828,Andrew Jackson,D,0
+1832,Andrew Jackson,D,0
+1836,Martin Van Buren,D,0
+1840,William Henry Harrison,O,0
+1844,James Polk,D,0
+1848,Zachary Taylor,O,0
+1852,Franklin Pierce,D,0
+1856,James Buchanan,D,0
+1860,Abraham Lincoln,R,1
+1864,Abraham Lincoln,R,0
+1868,Ulysses Grant,R,0
+1872,Ulysses Grant,R,0
+1876,Rutherford Hayes,R,0
+1880,James Garfield,R,0
+1884,Grover Cleveland,D,1
+1888,Benjamin Harrison,R,1
+1892,Grover Cleveland,D,1
+1896,William McKinley,R,1
+1900,William McKinley,R,0
+1904,Theodore Roosevelt,R,0
+1908,William Taft,R,0
+1912,Woodrow Wilson,D,1
+1916,Woodrow Wilson,D,0
+1920,Warren Harding,R,1
+1924,Calvin Coolidge,R,0
+1928,Herbert Hoover,R,0
+1932,Franklin Roosevelt,D,1
+1936,Franklin Roosevelt,D,0
+1940,Franklin Roosevelt,D,0
+1944,Franklin Roosevelt,D,0
+1948,Harry Truman,D,0
+1952,Dwight Eisenhower,R,1
+1956,Dwight Eisenhower,R,0
+1960,John F. Kennedy,D,1
+1964,Lyndon Johnson,D,0
+1968,Richard Nixon,R,1
+1972,Richard Nixon,R,0
+1976,Jimmy Carter,D,1
+1980,Ronald Reagan,R,1
+1984,Ronald Reagan,R,0
+1988,George H. W. Bush,R,0
+1992,Bill Clinton,D,1
+1996,Bill Clinton,D,0
+2000,George W. Bush,R,1
+2004,George W. Bush,R,0
+2008,Barack Obama,D,1
+2012,Barack Obama,D,0
+2016,Donald Trump,R,1
+2020,Joe Biden,D,1

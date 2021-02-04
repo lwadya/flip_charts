@@ -1,0 +1,14 @@
+#id-main {
+  text-align: center;
+}
+
+#id-content {
+  text-align: left;
+  display: inline-block;
+}
+
+#id-tableau-content {
+  border: 2px solid lightgray;
+  display: inline-block;
+  padding: 16px;
+}

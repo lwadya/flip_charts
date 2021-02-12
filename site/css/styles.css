@@ -1,14 +1,97 @@
-#id-main {
+a {
+  font-weight: 600;
+  color: #d9b225;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  font-family: 'Maitree', serif;
+  font-weight: 300;
+  font-size: .9em;
+}
+
+.cl-list-term {
+  font-weight: 600;
+}
+
+.cl-menu-btn {
+  border: 2px solid #d9b225;
+  padding: 4px;
+  text-decoration: none;
+  margin: 0px 2px 0px 2px;
+}
+
+.cl-spacer-tr {
+  height: 30px;
+}
+
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.1em;
+  margin-top: .5em;
+  margin-bottom: 0em;
+  line-height: 2em;
+}
+
+#id-about-div {
+  padding: 30px;
+}
+
+#id-about-div a {
+  color: #5e295c;
+}
+
+#id-content-td {
+  padding: 20px;
+  border: 2px solid #eee;
+}
+
+#id-footer-td {
+  padding: 25px 0px 25px 0px;
   text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-#id-content {
-  text-align: left;
-  display: inline-block;
+#id-header-tr, #id-footer-tr {
+  background-color: #5e295c;
+  color: white;
 }
 
-#id-tableau-content {
-  border: 2px solid lightgray;
-  display: inline-block;
-  padding: 16px;
+#id-help-td {
+  padding: 10px 0px 20px 0px;
+}
+
+#id-help-tr {
+  background-color: #eee;
+}
+
+#id-menu-sp {
+  float: right;
+}
+
+#id-subtitle-id {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  margin-top: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#id-title-td {
+  padding: 20px 0px 2px 0px;
+  width: 944px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+ul {
+  padding-left: 3em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  line-height: 1.6em;
 }

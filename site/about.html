@@ -4,30 +4,92 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Flip Charts</title>
+  <title>Flip Charts | About</title>
   <meta name="description" content="Visualizing State Flips in US Presidential
     Elections">
   <meta name="author" content="Lukas Wadya">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@300;600&
+    family=Noto+Sans+JP:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
 </head>
 
 <body>
+  <div id='id-main-div'>
+    <table id='id-main-table'>
+      <tr id='id-header-tr'>
+        <td></td>
+        <td id='id-title-td'>
+            <img src='images/logo.png' alt='Flip Charts'>
+            <p id='id-subtitle-id'>
+              <span>A Visual Analysis of State Flips in US Presidential Elections</span>
+              <span id='id-menu-sp'>
+                <a href='index.html' class='cl-menu-btn'>Home</a>
+                <a href='about.html' class='cl-menu-btn'>About</a>
+              </span>
+            </p>
+        </td>
+        <td></td>
+      </tr>
 
-  <div id='body-title'>
-    <h1>Flip Charts</h1>
-    <h2>Visualizing State Flips in US Presidential Elections</h2>
-    <a href='index.html'>Home</a>
-    <a href='about.html'>About</a>
-    <hr>
-  </div>
+      <tr id='id-help-tr'>
+        <td></td>
+        <td id='id-help-td'>
+          <div id='id-about-div'>
+            <h1>About</h1>
+            <p>
+              Welcome to Flip Charts, a project that aims to help us better understand
+              voting trends in US presidential elections by visualizing how often
+              states flip between parties. The project was inspired by
+              <a href='https://www.270towin.com/'>270 To Win's</a> excellent
+              interactive maps tracking party wins at the state and national levels
+              over time. In order to gain a better understanding of changes in
+              political polarization throughout history, I wanted to create
+              similar visualizations that focused on vote flips between elections
+              instead of party wins.
+            </p>
 
-  <div id='body-text'>
-    <p>Here's why the site exists.</p>
-    <p>Here's where the data comes from.</p>
-    <p>Here's the tools and code used to build the data set.</p>
+            <p>
+              To build these dashboards, I started by collecting data on
+              <a href='https://en.wikipedia.org/wiki/List_of_United_States_presidential_elections_by_popular_vote_margin'>
+              presidential election winners</a> and
+              <a href='https://en.wikipedia.org/wiki/List_of_United_States_presidential_election_results_by_state'>
+              election results by state</a> from Wikipedia, which I used because
+              it already had the data I needed in a tabular format. I then used
+              <a href='https://wikitable2csv.ggor.de/'>Gregor Weichbrodt's handy
+              conversion tool</a> to write the Wikipedia tables to CSV files.
+              Next I used Python and Jupyter Lab to assemble a clean data set
+              from the raw CSV data. All code, data, and html files are saved to
+              <a href='https://github.com/lwadya/flip_charts'>this
+              GitHub repository</a>. Finally, I created all visualizations in
+              Tableau Public, which also hosts
+              <a href='https://public.tableau.com/profile/lukas.wadya#!/vizhome/USPresidentialElectionStateFlips/Intro'>
+              the source file for the dashboards</a>. Thanks for visiting and I
+              hope you discover some interesting trends!
+            </p>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+
+      <tr id='id-footer-tr'>
+        <td></td>
+        <td id='id-footer-td'>
+          Created by
+          <a href='https://www.lukaswadya.com/'>Lukas Wadya</a> | Source files available at
+          <a href='https://public.tableau.com/profile/lukas.wadya#!/vizhome/USPresidentialElectionStateFlips/Intro'>
+            Tableau Public
+          </a> and
+          <a href='https://github.com/lwadya/flip_charts'>GitHub</a>
+        </td>
+        <td></td>
+      </tr>
+
+    </table>
   </div>
 
 </body>
